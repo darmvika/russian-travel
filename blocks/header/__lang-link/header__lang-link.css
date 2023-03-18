@@ -1,0 +1,39 @@
+.header__lang-link {
+    color: white;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.header__lang-link:hover {
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+
+    .header__lang-link {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .header__lang-link {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+
+    .header__lang-link {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+}
