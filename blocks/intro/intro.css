@@ -1,20 +1,16 @@
 .intro {
     max-width: 288px;
-    max-height: 754px;
-    display: block;
     padding-top: 64px;
+    align-items: left;
+    display: block;
     margin: auto;
-    left: 16px;
 }
 
 @media screen and (min-width: 768px) {
 
     .intro {
-        margin: auto;
-        max-width: 720px;
-        max-height: 429px;
+        max-width: 768px;
         padding-top: 88px;
-        left: 24px;
     }
 
 }
@@ -22,9 +18,7 @@
 @media screen and (min-width: 1024px) {
 
     .intro {
-        padding-left: 48px;
-        max-width: 690px;
-        max-height: 429px;
+        max-width: 928px;
         padding-top: 92px;
     }
 
@@ -33,10 +27,7 @@
 @media screen and (min-width: 1280px) {
 
     .intro {
-        padding-left: 148px;
-        max-width: 690px;
-        max-height: 429px;
-        padding-top: 92px;
+        max-width: 928px;
     }
 
 }
