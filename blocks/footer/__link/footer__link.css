@@ -5,7 +5,8 @@
     line-height: 24px;
     text-decoration: none;
 }
-.footer__link:hover{
+
+.footer__link:hover {
     text-decoration: underline;
     opacity: 0.8;
 }
