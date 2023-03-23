@@ -5,11 +5,9 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 20px;
+    transition: opacity .3s ease;
 }
 
-.header__lang-link:hover {
-    text-decoration: underline;
-}
 
 @media screen and (min-width: 768px) {
 

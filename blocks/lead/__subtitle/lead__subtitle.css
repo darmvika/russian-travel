@@ -1,5 +1,5 @@
 .lead__subtitle {
-    margin: 0;
+    margin: auto;
     padding-top: 16px;
     font-style: normal;
     font-weight: 400;
@@ -11,12 +11,7 @@
 @media screen and (min-width: 768px) {
 
     .lead__subtitle {
-        margin: 0;
-        padding-top: 32px;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 30px;
-        line-height: 36px;
+        max-width: calc(100% - 128px)
     }
 
 }
@@ -24,12 +19,7 @@
 @media screen and (min-width: 1024px) {
 
     .lead__subtitle {
-        margin: 0;
-        padding-top: 32px;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 30px;
-        line-height: 36px;
+        max-width: calc(100% -288px)
     }
 
 }
@@ -37,12 +27,8 @@
 @media screen and (min-width: 1280px) {
 
     .lead__subtitle {
-        margin: 0;
-        padding-top: 32px;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 30px;
-        line-height: 36px;
+        width: calc(100% - 264px);
+
     }
 
 }

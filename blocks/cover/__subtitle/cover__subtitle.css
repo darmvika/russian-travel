@@ -1,0 +1,40 @@
+.cover__subtitle {
+    margin: 0;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    z-index: 2;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+
+    .cover__subtitles {
+        width: calc(100% - 408px);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        top: 32px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .cover__subtitles {
+        width: calc(100% - 664px);
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+
+    .cover__subtitles {
+        width: calc(100% - 824px);
+        top: 429px;
+
+    }
+
+}

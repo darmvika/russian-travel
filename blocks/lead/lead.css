@@ -1,25 +1,14 @@
 .lead {
-    max-width: 320px;
-    max-height: 406px;
-    display: block;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     margin: auto;
-    align-items: center;
-}
-
-@media screen and (min-width: 768px) {
-
-    .lead {
-        max-width: 768px;
-        max-height: 862px;
-    }
-
 }
 
 @media screen and (min-width: 1024px) {
 
     .lead {
-        max-width: 928px;
-        max-height: 962px;
+        width: calc(100% - 96px);
     }
 
 }
@@ -28,7 +17,8 @@
 
     .lead {
         max-width: 984px;
-        max-height: 1005px;
+
     }
 
 }
+
