@@ -1,5 +1,5 @@
 # Проект: Путешествие по России
-https://github.com/darmvika/russian-travel
+https://darmvika.github.io/russian-travel/
 ### Обзор
 * Интро
 * Figma

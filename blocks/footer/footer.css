@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     margin-left: 16px;
+    padding-bottom: 24px;
 }
 
 @media screen and (min-width: 768px) {
@@ -22,8 +23,6 @@
 
     .footer {
         width: calc(100% - 96px);
-
-
     }
 
 }
@@ -31,8 +30,7 @@
 @media screen and (min-width: 1280px) {
 
     .footer {
-        width: 1184px;
-        padding-bottom: 24px;
+        width: (100% - 96px);
     }
 
 }

@@ -17,7 +17,6 @@
 @media screen and (min-width: 1024px) {
 
     .intro {
-        align-items: left;
         max-width: 928px;
         padding-top: 92px;
     }
@@ -27,9 +26,9 @@
 @media screen and (min-width: 1280px) {
 
     .intro {
+        margin-left: 48px;
         padding-top: 92px;
         max-width: 690px;
-
     }
 
 }

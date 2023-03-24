@@ -1,10 +1,12 @@
 .lead__title {
-    margin: auto;
+    min-width: 288px;
+    min-height: 88px;
     font-style: normal;
     font-weight: 900;
     font-size: 40px;
     line-height: 44px;
     text-align: center;
+    margin: auto;
 }
 
 @media screen and (min-width: 768px) {
@@ -23,6 +25,7 @@
 
     .lead__title {
         width: calc(100% - 208px);
+
     }
 
 }
@@ -31,6 +34,7 @@
 
     .lead__title {
         width: calc(100% - 264px);
+        max-height: 200px;
     }
 
 }
