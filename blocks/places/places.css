@@ -1,7 +1,6 @@
 .places {
     margin: auto;
     width: 100%;
-    padding-top: 14px;
     display: flex;
     flex-direction: column;
     padding-top: 64px;
