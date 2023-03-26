@@ -10,21 +10,8 @@
 @media screen and (min-width: 768px) {
 
     .footer__links {
-        display: flex;
         flex-direction: row;
-        column-gap: 18px;
+        gap: 18px;
     }
-
-}
-
-@media screen and (min-width: 1024px) {
-
-    .footer__links {}
-
-}
-
-@media screen and (min-width: 1280px) {
-
-    .footer__links {}
 
 }

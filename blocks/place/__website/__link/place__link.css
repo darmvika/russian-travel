@@ -4,10 +4,9 @@
     font-size: 18px;
     line-height: 22px;
     text-decoration: none;
-    padding-top: 12px;
+    margin: 0;
 }
 
 .place__link:hover {
-    text-decoration: underline;
     opacity: 0.8;
 }

@@ -1,9 +1,12 @@
 .place__website {
-    width: calc(100% - 32px);
-    margin: auto;
+    width: 90%;
+    margin: 0 auto;
     list-style-type: none;
     padding: 0;
     text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
 
 @media screen and (min-width: 768px) {
@@ -12,5 +15,5 @@
         margin: 0;
         align-self: end;
     }
-
+    
 }

@@ -1,6 +1,6 @@
 .intro__list {
     margin: 0;
-    max-width: 288px;
+    width: 100%;
     padding-top: 34px;
     list-style: none;
     padding-inline-start: 0px;

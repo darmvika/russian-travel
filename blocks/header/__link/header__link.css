@@ -4,25 +4,10 @@
     list-style-type: none;
     margin: 0;
     padding: 14px 0px 8px;
+    opacity: 0.8;
 }
 
 @media screen and (min-width: 768px) {
-
-    .header__link {
-        padding: 18px 0 6px;
-    }
-
-}
-
-@media screen and (min-width: 1024px) {
-
-    .header__link {
-        padding: 18px 0 6px;
-    }
-
-}
-
-@media screen and (min-width: 1280px) {
 
     .header__link {
         padding: 18px 0 6px;
