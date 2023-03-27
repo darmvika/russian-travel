@@ -6,6 +6,9 @@
     font-size: 18px;
     line-height: 20px;
     transition: opacity .3s ease;
+}
+
+.header__lang-link:hover{
     opacity: 0.8;
 }
 
